@@ -1,0 +1,9 @@
+#leader {
+    text-align: center;
+}
+#leader .background-image {
+    background-image: url('../../images/desktop/image-interactive.jpg');
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

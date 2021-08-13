@@ -1,7 +1,25 @@
 #creations {
-    
+    padding: 0 20px 40px 20px;
 }
 
+#creations .title {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+#creations .card {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    height: 90px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 #creations .background-earth {
     background-image: url('../../images/mobile/image-deep-earth.jpg');
 }
@@ -25,4 +43,17 @@
 }
 #creations .background-fisheye {
     background-image: url('../../images/mobile/image-fisheye.jpg');
+}
+
+#creations .button {
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #000;
+    background: transparent;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
 }

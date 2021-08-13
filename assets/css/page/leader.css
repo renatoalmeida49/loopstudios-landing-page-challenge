@@ -1,9 +1,19 @@
 #leader {
     text-align: center;
+    padding: 80px 20px;
 }
 #leader .background-image {
     background-image: url('../../images/desktop/image-interactive.jpg');
     height: 250px;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+#leader .title {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+#leader .description {
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
 }

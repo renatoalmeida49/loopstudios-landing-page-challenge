@@ -1,4 +1,11 @@
 #footer {
     background-color: black;
     color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Alata', sans-serif;
+}
+
+#footer ul {
+    list-style: none;
 }

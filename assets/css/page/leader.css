@@ -4,7 +4,7 @@
 }
 #leader .background-image {
     background-image: url('../../images/desktop/image-interactive.jpg');
-    height: 250px;
+    height: 220px;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -12,8 +12,14 @@
 #leader .title {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    color: hsl(0, 0%, 0%);
+    padding: 20px 0;
 }
 #leader .description {
     font-family: 'Alata', sans-serif;
     font-weight: 400;
+    color: hsl(0, 0%, 55%);
+    line-height: 25px;
 }

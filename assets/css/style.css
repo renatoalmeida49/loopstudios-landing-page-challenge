@@ -1,1 +1,6 @@
 @import url('./general.css');
+@import url('./page/header.css');
+@import url('./page/home.css');
+@import url('./page/leader.css');
+@import url('./page/creations.css');
+@import url('./page/footer.css');

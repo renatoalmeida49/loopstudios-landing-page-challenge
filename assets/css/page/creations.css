@@ -1,5 +1,6 @@
 #creations {
     padding: 0 20px 40px 20px;
+    margin-bottom: 50px;
 }
 
 #creations .title {
@@ -10,15 +11,22 @@
 }
 
 #creations .card {
-    margin: 10px 0;
+    margin: 20px 0;
     text-transform: uppercase;
+    font-size: 22px;
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    height: 90px;
+    height: 120px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card .text {
+    max-width: 115px;
 }
 #creations .background-earth {
     background-image: url('../../images/mobile/image-deep-earth.jpg');
@@ -51,9 +59,11 @@
     border: 2px solid #000;
     background: transparent;
     text-transform: uppercase;
-    padding: 8px 15px;
-    font-size: 18px;
+    padding: 15px 15px;
+    font-size: 15px;
     font-weight: 700;
-    letter-spacing: 2px;
+    width: 100%;
+    max-width: 180px;
+    letter-spacing: 4px;
     font-family: 'Josefin Sans', sans-serif;
 }

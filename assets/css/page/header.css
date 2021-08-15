@@ -1,9 +1,14 @@
 #header {
     position: absolute;
+    width: 100%;
+}
+#header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 40px 20px;
 }
 .logo {
@@ -44,4 +49,24 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 40px;
     font-weight: 300;
+}
+
+@media (min-width: 768px) {
+    .button-mobile {
+        display: none;
+    }
+    .menu {
+        display: flex;
+    }
+    .menu ul {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        color: white;
+        width: 100%;
+        list-style: none;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+    }
 }

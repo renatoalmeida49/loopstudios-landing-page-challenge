@@ -2,14 +2,21 @@
     padding: 0 20px 40px 20px;
     margin-bottom: 50px;
 }
-
+#creations .container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
 #creations .title {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     padding: 20px;
+    order: 1;
 }
-
+#creations .card {
+    order: 2;
+}
 #creations .card {
     margin: 20px 0;
     text-transform: uppercase;
@@ -66,4 +73,60 @@
     max-width: 180px;
     letter-spacing: 4px;
     font-family: 'Josefin Sans', sans-serif;
+    order: 3;
+}
+
+@media (min-width: 768px) {
+    #creations .container {
+        display: flex;
+        flex-direction: column;
+    }
+    #creations .title {
+        text-align: left;
+        padding: 40px 0;
+        order: 1;
+    }
+    #creations .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+        order: 3;
+        flex: 1;
+    }
+    #creations .card {
+        width: 22%;
+        max-width: 252px;
+        margin: 0;
+        height: 500px;
+    }
+    #creations .background-earth {
+        background-image: url('../../images/desktop/image-deep-earth.jpg');
+    }
+    #creations .background-arcade {
+        background-image: url('../../images/desktop/image-night-arcade.jpg');
+    }
+    #creations .background-soccer {
+        background-image: url('../../images/desktop/image-soccer-team.jpg');
+    }
+    #creations .background-grid {
+        background-image: url('../../images/desktop/image-grid.jpg');
+    }
+    #creations .background-above {
+        background-image: url('../../images/desktop/image-from-above.jpg');
+    }
+    #creations .background-pocket {
+        background-image: url('../../images/desktop/image-pocket-borealis.jpg');
+    }
+    #creations .background-curiosity {
+        background-image: url('../../images/desktop/image-curiosity.jpg');
+    }
+    #creations .background-fisheye {
+        background-image: url('../../images/desktop/image-fisheye.jpg');
+    }
+
+    #creations .button {
+        order: 2;
+        flex: 2;
+    }
 }

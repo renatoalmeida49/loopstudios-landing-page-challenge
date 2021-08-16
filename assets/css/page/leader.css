@@ -2,11 +2,18 @@
     text-align: center;
     padding: 80px 20px;
 }
+#leader .container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
 #leader .background-image {
     background-image: url('../../images/desktop/image-interactive.jpg');
     height: 220px;
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
 }
 
 #leader .title {
@@ -22,4 +29,13 @@
     font-weight: 400;
     color: hsl(0, 0%, 55%);
     line-height: 25px;
+}
+
+@media (min-width: 768px) {
+    #leader .container {
+        display: flex;
+    }
+    #leader .background-image, #leader .content {
+        width: 50%;
+    }
 }

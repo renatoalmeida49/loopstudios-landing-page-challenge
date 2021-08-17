@@ -35,7 +35,27 @@
     #leader .container {
         display: flex;
     }
-    #leader .background-image, #leader .content {
-        width: 50%;
+    #leader .background-image {
+        width: 60%;
+    }
+    
+    #leader .content {
+        width: 40%;
+    }
+    #leader .background-image {
+        height: 500px;
+    }
+    #leader .title {
+        font-size: 150%;
+    }
+    #leader .content {
+        text-align: initial;
+        font-size: 150%;
+        padding: 40px;
+
+        position: relative;
+        left: -135px;
+        background: white;
+        top: 171px;
     }
 }

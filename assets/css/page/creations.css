@@ -79,12 +79,17 @@
 @media (min-width: 768px) {
     #creations .container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
     }
     #creations .title {
         text-align: left;
         padding: 40px 0;
         order: 1;
+        display: flex;
     }
     #creations .cards {
         display: flex;
@@ -92,13 +97,20 @@
         gap: 20px;
         justify-content: space-between;
         order: 3;
-        flex: 1;
     }
     #creations .card {
         width: 22%;
         max-width: 252px;
         margin: 0;
         height: 500px;
+        cursor: pointer;
+    }
+    #creations .card:hover {
+        filter: opacity(0.5);
+        color: #000;
+    }
+    #creations .card .text {
+        filter: opacity(1);
     }
     #creations .background-earth {
         background-image: url('../../images/desktop/image-deep-earth.jpg');
@@ -126,7 +138,13 @@
     }
 
     #creations .button {
+        margin: 0;
         order: 2;
         flex: 2;
+        cursor: pointer;
+    }
+    #creations .button:hover {
+        background-color: #000;
+        color: #fff;
     }
 }

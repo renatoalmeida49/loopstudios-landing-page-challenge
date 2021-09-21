@@ -44,6 +44,14 @@
     #footer .social {
         justify-content: flex-end;
     }
+    #footer .social img {
+        cursor: pointer;
+        padding-bottom: 4px;
+        border-bottom: 2px solid transparent;
+    }
+    #footer .social img:hover {
+        border-bottom: 2px solid #fff;
+    }
     #footer .menu-footer {
         display: flex;
         gap: 20px;
@@ -51,5 +59,10 @@
 
     #footer ul li {
         margin: 0;
+        cursor: pointer;
+    }
+
+    #footer ul li:hover {
+        border-bottom: 2px solid #fff;
     }
 }
